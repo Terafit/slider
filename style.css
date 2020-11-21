@@ -1,0 +1,28 @@
+img {
+  width: 1000px;
+  height: 500px;
+}
+
+.slidder {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  transition: 0.5s ease;
+  top: 50%;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: black;
+  opacity: 50%;
+}
